@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    .main{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        right: 30px;
+        top: 2px;
+        color: aqua;
+        font-size: 20px;
+        width: 700px;
+        padding: 10px 20px;
+
+    }
+
+    .logomain{
+
+        color: #232357;
+        text-decoration-line: underline;
+        text-shadow: 4px 4px 10px salmon;
+       
+    }
+    .logo{
+        animation: anshul;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        color:#3a263e;
+    }
+    .ul1{
+        display: flex;
+        text-align: center;
+
+    }
+    .hov{
+        text-decoration: none;
+        color: #e6ffc6;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        top: 10px;
+        right: 3px;
+    }
+
+    
+    .hov:hover {
+        color:#111e2a;
+        text-decoration:underline;
+        transform: scale(1.1);
+    }
+
+    .headerm{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        top: 200px;
+        animation:ansh;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    }
+
+    .header{
+
+        color: #31b594;
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+       
+        width: 1000px;
+        top: 175px;
+        left: 150px;
+        height: 430px;
+        justify-content: space-between;
+        animation:ansh;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-timing-function: ease-in-out;
+
+    }
+
+    .para{
+        color: #dc7ffffa;
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        width: 455px;
+        top: 225px;
+        left: 150px;
+        height: 430px;
+        justify-content: space-between;
+        animation:ansh;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+        animation-delay: 3s;
+        font-size: 25px;
+        
+    }
+    body{
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(https://cf.ltkcdn.net/web-design/images/orig/204538-2261x1326-HTML.jpg);
+        position: relative;
+        animation:ansh;
+        animation-duration: 4s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+
+    }
+    
+    @keyframes ansh{
+        from{
+            width: 0px;
+        }
+        to{
+            width:1300px
+        }
+    }
+    
+    @keyframes anshul{
+        from{
+            width: 0px;
+        }
+        to{
+            width:1200px;
+        }
+    }
+    .col{
+        color: white;
+        color: #fffdaffa;
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        width: 255px;
+        top: 175px;
+        left: 315px;
+        height: 430px;
+        justify-content: space-between;
+    }
+    .projmain{
+        color: #dc7ffffa;
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        width: 255px;
+        top: 275px;
+        left: 130px;
+        height: 430px;
+        font-size: 25px;
+    }
+    .proj1{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        width: 255px;
+        top: 25px;
+    
+      
+    }
+    .proj2{
+        display: flex;
+        position: absolute;
+        text-align: center;
+        justify-content: center;
+        width: 400px;
+        top: 60px;
+    
+      
+    }
+    .projhov{
+        color: #ffa4d1;
+    }
+    .projhov:hover{
+        color: rgb(202, 188, 219);
+        text-decoration:underline;
+        transform: scale(1.1);
+    }
+</style>
+
+<body>
+    <div class="logomain">
+        <h1 class="logo">Anshul Kunwar</h1>
+    </div>
+    <nav class="main">
+        <ul class="ul1"> <a href="portt.html" class="hov">Home</a></ul>
+        <ul class="ul1"><a href="about.html" class="hov">About</a></ul>
+        <ul class="ul1"><a href="project.html" class="hov">Projects</a></ul>
+        <ul class="ul1"><a href="#" class="hov">Mail</a></ul>
+        <ul class="ul1"><a href="#" class="hov">Hire Me</a></ul>
+    </nav>
+    <header class="headerm" >
+        <h1 class="header">I'm Anshul<h1 class="col">Kunwar</h1></h1>
+        <p class="para">Welcome to my Projects section page <br>My web-d Projects links are below
+        </p>  
+    </header>
+    <nav class="projmain"> 
+        <ol class="proj1"> <a href="https://anshul407.github.io/cardiofrontend.github.io/" class="projhov"> 1.A Cardio Centre</a></ol>
+        <ol class="proj2"> <a href="https://anshul407.github.io/foodr/" class="projhov">2.The Food republic(Responsive)</a> </ol>
+        <ol class="proj"></ol>
+        <ol class="proj"></ol>
+    </nav>
+</body>
+
+</html>
